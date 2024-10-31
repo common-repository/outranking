@@ -1,0 +1,43 @@
+===== v1.0.0 : 25 June 2021 =====
+- Initial Release
+
+===== v1.0.1 : 29 June 2021 =====
+- Removed Plugin URI as it was conflicting with Author URI
+- Loaded images locally instead of remotely from the website
+- Add Sanitization and Escaping
+- Replaced json_encode with wp_send_json_success and wp_send_json_error
+- Removed output buffering
+- Changed success validation in AJAX success
+- Implemented HTML encode and decode in Javascript to enhance security
+- Recognition of DOC_URL, META_TITLE and META_DESCRIPTION while importing and exporting
+
+===== v1.0.2 : May 11 2022 =====
+- Import TITLE, CONTENT, IMAGES from API
+- Added blank index files
+- Moved essential functions to AJAX file
+
+===== v1.0.3 : May 18 2022 =====
+- Export Title, Description, URL, and content from WordPress to apps.
+- Added alt tag in image
+
+===== v1.0.4 : May 20 2022 =====
+- Removed SEO Score field
+
+===== v1.0.5 : Mar 06 2023 =====
+- Added Support for Unicode characters while importing and exporting
+
+===== v1.0.6 : Jul 05 2023 =====
+- Added Support for iframes and youtube videos
+- Fixed an issue with TinyMCE
+
+===== v1.1.0 : Aug 31 2023 =====
+- Added API Support for Creating, Updating and Selective Updating of a Post
+
+===== v1.1.1 : Sep 22 2023 =====
+- Optimization and Integration of API with Outranking Portal
+
+===== v1.1.2 : Sep 22 2023 =====
+- Content filteration for image, iframe and anchor tag
+
+===== v1.1.3 : Oct 25 2023 =====
+- Bug Fixes
